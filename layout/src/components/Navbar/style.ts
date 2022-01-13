@@ -3,8 +3,7 @@ import styled from "styled-components"
 export const Nav = styled.nav`
     height: 88px;
     width: 100%;
-    position: fixed;
-    margin-bottom: 88px;
+    margin-bottom: 33px;
 
     .divMsg {
         background-color: #353535;

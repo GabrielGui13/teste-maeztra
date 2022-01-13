@@ -1,0 +1,48 @@
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+button[data-bs-target] {
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+    background-color: #FAA500 !important;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    bottom: 13rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px;
+
+    h1, p {
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial !important;
+    }
+
+    h1 {
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    button {
+        background-color: #FAA500;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        width: 93px;
+
+        &:hover {
+            background-color: #FF9500;
+            color: white;
+            transition: background-color 0.2s, color 0.2s;
+            cursor: pointer;
+        }
+    }
+}

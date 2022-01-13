@@ -2,8 +2,21 @@ import {Nav} from './style'
 import { FiUser } from 'react-icons/fi'
 import { BiHeart } from 'react-icons/bi'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
+import { GiTravelDress } from 'react-icons/gi'
+import { transform } from 'typescript'
 
 export const Navbar = () => {
+    const novidadeStyle = {
+        color: '#FAA500', 
+        fontWeight: 'bold'
+    }
+
+    const dressStyle = {
+        color: "black",
+        transform: "translateY(-1px)",
+        marginRight: "2px"
+    }
+
     return (
         <Nav>
             <div className="divMsg"><a href="">Acompanhe as melhores promoções disponíveis aqui na Maeztra.</a></div>
@@ -32,7 +45,7 @@ export const Navbar = () => {
             </div>
             <div className="listWrapper">
                 <ul>
-                    <li><a href="" style={{color: '#FAA500', fontWeight: 'bold'}}>Novidades</a></li>
+                    <li><a href="" style={novidadeStyle}><GiTravelDress style={dressStyle}/>Novidades</a></li>
                     <li><a href="">Vestidos</a></li>
                     <li><a href="">Roupas</a></li>
                     <li><a href="">Sapatos</a></li>
