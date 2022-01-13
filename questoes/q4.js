@@ -40,7 +40,6 @@ const maisPessoasNoAno = (data) => {
         else if (a.pessoas < b.pessoas) return -1;
         else return 0;
     })
-    console.log(anos)
 
     let maiorQtdPessoas = anos[anos.length - 1].pessoas;
     let anosComMaisPessoas = [];
