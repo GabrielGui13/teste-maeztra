@@ -49,10 +49,10 @@ export const Nav = styled.nav`
                 padding-left: 25px;
                 width: 100%;
                 outline: none;
+                transition: background-color 0.2s;
 
                 &:hover {
                     background-color: #e5e5e5;
-                    transition: background-color 0.2s;
                 }
             }
 
@@ -63,11 +63,11 @@ export const Nav = styled.nav`
                 border-radius: 10px;
                 margin-left: -50px;
                 border: none;
+                transition: background-color 0.2s, color 0.2s;
 
                 &:hover {
                     background-color: #FF9500;
                     color: white;
-                    transition: background-color 0.2s, color 0.2s;
                     cursor: pointer;
                 }
             }
@@ -91,11 +91,11 @@ export const Nav = styled.nav`
             .cartContent {
                 border: 1px solid #FAA500;
                 border-radius: 10px;
+                transition: background-color 0.2s, color 0.2s;
 
                 &:hover {
                     background-color: #FAA500;
                     color: white;
-                    transition: background-color 0.2s, color 0.2s;
                     cursor: pointer;
                 }
             }

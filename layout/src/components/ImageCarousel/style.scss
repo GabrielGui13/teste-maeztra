@@ -37,11 +37,11 @@ button[data-bs-target] {
         border-radius: 10px;
         border: none;
         width: 93px;
+        transition: background-color 0.2s, color 0.2s;
 
         &:hover {
             background-color: #FF9500;
             color: white;
-            transition: background-color 0.2s, color 0.2s;
             cursor: pointer;
         }
     }

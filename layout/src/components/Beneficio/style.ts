@@ -3,11 +3,11 @@ import styled from 'styled-components'
 export const Beneficios = styled.div`
     display: flex;
     flex-direction: column;
-    min-width: 1500px;
 
     p:nth-child(1) {
         margin-top: 12px;
         text-align: center;
+        font-weight: bold;
     }
 
     .benefitWrapper {
@@ -15,6 +15,7 @@ export const Beneficios = styled.div`
         justify-content: center;
         gap: 20px;
         margin: 0 30px;
+        min-width: 1300px;
 
         .benefitContent {
             background-color: #EFEFEF;
