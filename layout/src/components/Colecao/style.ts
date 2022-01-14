@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Colecoes = styled.div`
     display: flex;
     padding: 0 80px;
-    margin-top: 80px;
+    margin: 80px 0;
     justify-content: center;
     gap: 60px;
 
