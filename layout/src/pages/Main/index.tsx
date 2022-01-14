@@ -6,6 +6,7 @@ import { Parceria } from '../../components/Parceria'
 import { Outfit } from '../../components/Outfit'
 import { Colecao } from '../../components/Colecao'
 import { Newsletter } from '../../components/Newsletter'
+import { NavigationTopic } from '../../components/NavigationTopic'
 
 export const Main = () => {
     return (
@@ -17,6 +18,7 @@ export const Main = () => {
             <Outfit/>
             <Colecao/>
             <Newsletter/>
+            <NavigationTopic/>
         </>
     )
 }
