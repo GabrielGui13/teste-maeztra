@@ -46,7 +46,7 @@ export const Beneficio = () => {
     return (
         <Beneficios>
             <p>Por que comprar na Maeztra?</p>
-            <div className="benefitsWrapper">
+            <div className="benefitWrapper">
                 {benefits.map((item, i) => {
                     return (
                         <div className="benefitContent" key={i}>

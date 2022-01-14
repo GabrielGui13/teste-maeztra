@@ -12,9 +12,9 @@ button[data-bs-target] {
 
 .carousel-caption {
     text-align: left !important;
-    bottom: 13rem !important;
     display: flex !important;
     flex-direction: column !important;
+    top: 25%;
     gap: 20px;
 
     h1, p {
@@ -26,7 +26,7 @@ button[data-bs-target] {
     }
 
     p {
-        font-size: 20px;
+        font-size: 1em;
         font-weight: normal;
     }
 

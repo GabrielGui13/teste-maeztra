@@ -83,7 +83,7 @@ export const Nav = styled.nav`
                 padding: 10px;
                 cursor: pointer;
                 svg {
-                    transform: scale(1.1) translateY(1.5px);
+                    transform: scale(1.1) translateY(-1.5px);
                     margin-right: 5px;
                 }
             }
@@ -103,7 +103,7 @@ export const Nav = styled.nav`
     }
 
     .listWrapper {
-        height: 48px;
+        height: 35px;
         display: flex;
         align-items: center;
         padding: 0 200px;
@@ -113,6 +113,11 @@ export const Nav = styled.nav`
             display: flex;
             justify-content: space-around;
             list-style: none;
+            margin-bottom: 0;
+
+            li {
+                min-width: 92px;
+            }
             
             li a {
                 color: black;

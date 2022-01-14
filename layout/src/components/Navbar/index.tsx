@@ -8,7 +8,8 @@ import { transform } from 'typescript'
 export const Navbar = () => {
     const novidadeStyle = {
         color: '#FAA500', 
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        minWidth: '92px',
     }
 
     const dressStyle = {
