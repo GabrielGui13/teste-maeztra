@@ -3,12 +3,35 @@ import styled from 'styled-components'
 export const Beneficios = styled.div`
     display: flex;
     flex-direction: column;
-    overflow-x: scroll;
 
     p:nth-child(1) {
         margin-top: 12px;
         text-align: center;
         font-weight: bold;
+    }
+
+    .overflowHelper {
+        width: 100%;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+
+        /* Works on Firefox */
+        scrollbar-width: thin;
+        scrollbar-color: #f2f2f2 transparent;
+
+        /* Works on Chrome, Edge, and Safari */
+        &::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #f2f2f2;
+            border: 1px solid transparent;
+        }
     }
 
     .benefitWrapper {

@@ -12,14 +12,16 @@ export const Parceria = () => {
     return (
         <Parcerias>
             <h3>Marcas Parceiras</h3>
-            <div className="brandImagesWrapper">
-                {images.map((image, index) => {
-                    return (
-                        <div className="brandImageContent" key={index}>
-                            <img src={image} alt={`Imagem ${index + 1}`} />
-                        </div>
-                    )
-                })}
+            <div className="overflowHelper">
+                <div className="brandImagesWrapper">
+                    {images.map((image, index) => {
+                        return (
+                            <div className="brandImageContent" key={index}>
+                                <img src={image} alt={`Imagem ${index + 1}`} />
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         </Parcerias>
     )

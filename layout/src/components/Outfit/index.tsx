@@ -69,30 +69,32 @@ export const Outfit = () => {
     return (
         <Outfits>
             <h3>As Mais Pedidas</h3>
-            <div className="outfitImagesWrapper">
-                {clothes.map((item, index) => {
-                    return (
-                        <div className="outfitImageCard" key={index}>
-                            <div className="outfitImage">
-                                <img src={item.image} alt={`Image ${index + 1}`} />
-                            </div>
-                            <div className="outfitImageContent">
-                                <div className="outfitColorPickerWrapper">
-                                    {item.colors.map((color, index) => {
-                                        return (
-                                            <span key={index} className="outfitColorPickerSquare" style={{backgroundColor: color}}></span>
-                                        )
-                                    })}
+            <div className="overflowHelper">
+                <div className="outfitImagesWrapper">
+                    {clothes.map((item, index) => {
+                        return (
+                            <div className="outfitImageCard" key={index}>
+                                <div className="outfitImage">
+                                    <img src={item.image} alt={`Image ${index + 1}`} />
                                 </div>
-                                <h4 className="outfitPrice">{item.price}</h4>
-                                <p className="outfitTitle">{item.name}</p>
-                                <small className="outfitDesc">{item.desc}</small> 
-                                <br/>
-                                <button>Adicionar</button>
+                                <div className="outfitImageContent">
+                                    <div className="outfitColorPickerWrapper">
+                                        {item.colors.map((color, index) => {
+                                            return (
+                                                <span key={index} className="outfitColorPickerSquare" style={{backgroundColor: color}}></span>
+                                            )
+                                        })}
+                                    </div>
+                                    <h4 className="outfitPrice">{item.price}</h4>
+                                    <p className="outfitTitle">{item.name}</p>
+                                    <small className="outfitDesc">{item.desc}</small> 
+                                    <br/>
+                                    <button>Adicionar</button>
+                                </div>
                             </div>
-                        </div>
-                    )
-                })}
+                        )
+                    })}
+                </div>
             </div>
         </Outfits>
     )

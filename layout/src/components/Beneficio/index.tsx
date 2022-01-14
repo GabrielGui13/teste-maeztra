@@ -44,23 +44,27 @@ export const Beneficio = () => {
     ]
 
     return (
-        <Beneficios>
-            <p>Por que comprar na Maeztra?</p>
-            <div className="benefitWrapper">
-                {benefits.map((item, i) => {
-                    return (
-                        <div className="benefitContent" key={i}>
-                            <div className="benefitIcon">
-                                {item.icon()}
-                            </div>
-                            <div className="benefitText">
-                                <p className="benefitName">{item.name}</p>
-                                <p className="benefitDesc">{item.desc}</p>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
-        </Beneficios>
+        <>
+            <Beneficios>
+                <p>Por que comprar na Maeztra?</p>
+                <div className="overflowHelper">
+                    <div className="benefitWrapper">
+                        {benefits.map((item, i) => {
+                            return (
+                                <div className="benefitContent" key={i}>
+                                    <div className="benefitIcon">
+                                        {item.icon()}
+                                    </div>
+                                    <div className="benefitText">
+                                        <p className="benefitName">{item.name}</p>
+                                        <p className="benefitDesc">{item.desc}</p>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </Beneficios>
+        </>
     )
 }
