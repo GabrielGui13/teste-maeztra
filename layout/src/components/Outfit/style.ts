@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Outfits = styled.div`
     margin-top: 50px;
     padding: 0 10px;
-    overflow-x: scroll;
 
     h3 {
         text-align: center;

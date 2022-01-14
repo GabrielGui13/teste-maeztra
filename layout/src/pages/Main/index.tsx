@@ -4,6 +4,7 @@ import { ImageCarousel } from '../../components/ImageCarousel'
 import { Beneficio } from '../../components/Beneficio'
 import { Parceria } from '../../components/Parceria'
 import { Outfit } from '../../components/Outfit'
+import { Colecao } from '../../components/Colecao'
 
 export const Main = () => {
     return (
@@ -13,6 +14,7 @@ export const Main = () => {
             <Beneficio/>
             <Parceria/>
             <Outfit/>
+            <Colecao/>
         </>
     )
 }
