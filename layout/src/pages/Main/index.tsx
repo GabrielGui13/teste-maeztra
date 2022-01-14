@@ -7,6 +7,7 @@ import { Outfit } from '../../components/Outfit'
 import { Colecao } from '../../components/Colecao'
 import { Newsletter } from '../../components/Newsletter'
 import { NavigationTopic } from '../../components/NavigationTopic'
+import { Footer } from '../../components/Footer'
 
 export const Main = () => {
     return (
@@ -19,6 +20,7 @@ export const Main = () => {
             <Colecao/>
             <Newsletter/>
             <NavigationTopic/>
+            <Footer/>
         </>
     )
 }
