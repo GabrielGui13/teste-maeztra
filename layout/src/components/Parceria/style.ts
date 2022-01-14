@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Parcerias = styled.div`
     margin-top: 50px;
+    overflow-x: scroll;
     
     h3 {
         text-align: center;

@@ -3,6 +3,7 @@ import { Navbar } from '../../components/Navbar'
 import { ImageCarousel } from '../../components/ImageCarousel'
 import { Beneficio } from '../../components/Beneficio'
 import { Parceria } from '../../components/Parceria'
+import { Outfit } from '../../components/Outfit'
 
 export const Main = () => {
     return (
@@ -11,6 +12,7 @@ export const Main = () => {
             <ImageCarousel/>
             <Beneficio/>
             <Parceria/>
+            <Outfit/>
         </>
     )
 }

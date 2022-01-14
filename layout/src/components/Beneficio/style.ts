@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Beneficios = styled.div`
     display: flex;
     flex-direction: column;
+    overflow-x: scroll;
 
     p:nth-child(1) {
         margin-top: 12px;
@@ -16,6 +17,7 @@ export const Beneficios = styled.div`
         gap: 20px;
         margin: 0 30px;
         min-width: 1300px;
+        
 
         .benefitContent {
             background-color: #EFEFEF;
