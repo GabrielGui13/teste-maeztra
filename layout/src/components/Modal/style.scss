@@ -1,0 +1,111 @@
+.custom-modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: white;
+        margin-left: 790px;
+        margin-bottom: 5px;
+    }
+
+    .modal-content {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 850px;
+
+        .modal-image {
+            height: 500px;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .modal-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            p {
+                font-size: 0.8em;
+            }
+
+            #modalMsg {
+                color: #464B54;
+                width: 70%;
+                text-align: center;
+                font-size: 1.3em;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            input, button {
+                width: 85%;
+            }
+
+            input {
+                background-color: white;
+                border: 1px solid #464B54;
+                border-radius: 10px;
+                padding: 7px;
+                padding-left: 15px;
+                font-size: 0.8em;
+                outline: none;
+                transition: background-color 0.2s;
+                margin-bottom: 10px;
+
+                &:hover {
+                    background-color: #EFEFEF;
+                }
+
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+
+            button {
+                > svg {
+                    margin-left: 7px;
+                    filter: invert(1);
+                    transform: translateY(1.5);
+                }
+
+                background-color: #FAA500;
+                color: white;
+                padding: 8px 20px;
+                border-radius: 10px;
+                border: none;
+                transition: background-color 0.2s, color 0.2s;
+                font-size: 0.9em;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: #FF9500;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.disabledModal {
+    display: none;
+}

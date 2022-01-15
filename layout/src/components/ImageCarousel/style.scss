@@ -1,6 +1,7 @@
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
+    z-index: -1;
 }
 
 button[data-bs-target] {
@@ -8,6 +9,7 @@ button[data-bs-target] {
     width: 15px !important;
     border-radius: 50%;
     background-color: #FAA500 !important;
+    z-index: -1;
 }
 
 .carousel-caption {
