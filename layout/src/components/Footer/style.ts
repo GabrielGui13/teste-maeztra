@@ -40,4 +40,20 @@ export const FooterElement = styled.footer`
             filter: brightness(0) invert(1);
         }
     }
+
+    @media (max-width: 650px) {
+        > div {
+            transform: scale(0.9);
+        }
+    }
+
+    @media (max-width: 550px) {
+        min-height: 200px;
+        flex-direction: column;
+        justify-content: space-around;
+
+        > div {
+            transform: scale(1);
+        }
+    }
 `

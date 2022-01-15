@@ -5,7 +5,7 @@ export const NewsletterForm = styled.div`
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding: 30px 0;
+    padding: 30px;
 
     h4 {
         font-weight: bold;
@@ -13,6 +13,7 @@ export const NewsletterForm = styled.div`
 
     .newsletterInput {
         display: flex;
+        justify-content: center;
         max-width: 900px;
         width: 100%;
 
@@ -46,5 +47,33 @@ export const NewsletterForm = styled.div`
                 cursor: pointer;
             }
         }
+    }
+
+    @media (max-width: 1310px) {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    @media (max-width: 980px) {
+        padding: 30px 50px;
+    }
+
+    @media (max-width: 500px) {
+        transform: scale(0.9);
+        gap: 10px;
+
+        input {
+            padding: 0px;
+        }
+    }
+
+    @media (max-width: 420px) {
+        padding: 5px;
+        transform: scale(0.8);
+    }
+
+    @media (max-width: 420px) {
+        padding: 5px;
+        transform: scale(0.7);
     }
 `

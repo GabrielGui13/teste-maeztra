@@ -12,10 +12,14 @@ export const Colecoes = styled.div`
         flex-direction: column;
         justify-content: center;
         width: 500px;
+
+        h4 {
+            font-weight: bold;
+        }
     }
 
     .colecaoImage {
-        height: 380px;
+        max-height: 380px;
         width: 900px;
         overflow: hidden;
         object-fit: cover;
@@ -23,6 +27,29 @@ export const Colecoes = styled.div`
         img {
             width: 100%;
             margin-top: -40px;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+
+        .colecaoText {
+            width: 100%;
+            h4 {
+                font-size: 1.5em;
+            }
+        }
+
+        .colecaoImage {
+            width: 100%;
+            max-height: 400px;
+            margin-top: -20px;
+
+            img {
+                margin-top: -20px;
+            }
         }
     }
 `

@@ -3,7 +3,7 @@ import { FiUser } from 'react-icons/fi'
 import { BiHeart } from 'react-icons/bi'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 import { GiTravelDress } from 'react-icons/gi'
-import { transform } from 'typescript'
+import { AiOutlineSearch } from 'react-icons/ai'
 
 export const Navbar = () => {
     const novidadeStyle = {
@@ -28,6 +28,7 @@ export const Navbar = () => {
                 <div className="searchWrapper">
                     <input type="text" placeholder="O Que Você Busca?" />
                     <button>Buscar</button>
+                    <AiOutlineSearch id="searchIcon"/>
                 </div>
                 <div className="accountAndCartWrapper">
                     <div className="accountContent">

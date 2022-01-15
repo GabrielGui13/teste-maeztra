@@ -1,4 +1,5 @@
 import { NavigationTopics } from './style'
+import { AiOutlinePlus } from 'react-icons/ai'
 
 export const NavigationTopic = () => {
     return (

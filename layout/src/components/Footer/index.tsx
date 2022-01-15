@@ -8,19 +8,19 @@ export const Footer = () => {
     return (
         <>
             <FooterElement>
-                <div>
+                <div className="flexFooter">
                     <AiFillFacebook/>
                     <FaLinkedinIn/>
                     <AiOutlineInstagram/>
                     <AiFillYoutube/>
                 </div>
-                <div>
+                <div className="flexFooter">
                     <FaCcVisa/>
                     <FaCcMastercard/>
                     <FaCcVisa/>
                     <FaCcMastercard/>
                 </div>
-                <div className="footerBrandIconWrapper">
+                <div className="footerBrandIconWrapper flexFooter">
                     <div className="vtexFooter">
                         <p>Powered by</p>
                         <div className="footerFormatImage">
