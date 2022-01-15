@@ -24,7 +24,7 @@
         display: flex;
         flex-direction: row;
         background-color: white;
-        width: 850px;
+        max-width: 850px;
 
         .modal-image {
             height: 500px;
@@ -108,4 +108,38 @@
 
 .disabledModal {
     display: none;
+}
+
+@media (max-width: 1000px) {
+    .custom-modal > button {
+        margin-left: 700px;
+        margin-bottom: -20px;
+    }
+
+    .modal-image {
+        display: none;
+    }
+
+    .modal-content {
+        transform: scale(0.9);
+        max-width: 600px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .modal-body {
+        padding: 40px;
+        height: 100%;
+        justify-content: start;
+    }
+}
+
+@media (max-width: 850px) {
+    .modal-content {
+        transform: scale(0.8);
+    }
+
+    .custom-modal > button {
+        display: none;
+    }
 }
