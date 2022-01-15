@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.5f36f9ed.css",
-    "main.js": "./static/js/main.3d2a8f84.js",
+    "main.css": "./static/css/main.71e98df4.css",
+    "main.js": "./static/js/main.e477ecf9.js",
     "static/media/TieShoes.png": "./static/media/TieShoes.adb200f3414e051bb64c.png",
     "static/media/roupa2.png": "./static/media/roupa2.d36406bcd3250bc9ea79.png",
     "static/media/roupa1.png": "./static/media/roupa1.f94c011d6324bd4976fd.png",
     "static/media/VTEXLogo.svg.png": "./static/media/VTEXLogo.svg.23fbdbd4ec47982b1ac2.png",
     "static/media/MaeztraLogo.png": "./static/media/MaeztraLogo.c80febfb388c0a50fbaf.png",
     "index.html": "./index.html",
-    "main.5f36f9ed.css.map": "./static/css/main.5f36f9ed.css.map",
-    "main.3d2a8f84.js.map": "./static/js/main.3d2a8f84.js.map"
+    "main.71e98df4.css.map": "./static/css/main.71e98df4.css.map",
+    "main.e477ecf9.js.map": "./static/js/main.e477ecf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f36f9ed.css",
-    "static/js/main.3d2a8f84.js"
+    "static/css/main.71e98df4.css",
+    "static/js/main.e477ecf9.js"
   ]
 }
